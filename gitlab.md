@@ -6,4 +6,12 @@
 
 ## configure
 - `sudo vim /etc/gitlab/gitlab.rb`
-- `external_url 'http://gitlab-server'`
+- `external_url 'http://localhost:8081'`
+- `sudo gitlab-ctl reconfigure`
+
+## login
+- access `http://localhost:8081` on your browser
+- root login
+	- username: root
+	- password: `sudo grep "Password:" /etc/gitlab/initial_root_password`
+- create new user

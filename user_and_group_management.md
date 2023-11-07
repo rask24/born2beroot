@@ -3,6 +3,7 @@
 - `sudo adduser username`: Adds a new user.
 - `sudo addgroup groupname`: Creates a new group.
 - `sudo adduser user group`: Adds a user to a group (specific to Debian).
+- `sudo deluser username`
 
 ### Modifying User Accounts
 - `sudo usermod -aG group user`: Adds a user to a group.

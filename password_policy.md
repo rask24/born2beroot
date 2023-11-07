@@ -17,3 +17,10 @@
 - `PASS_WARN_AGE`: Sets the number of days of advance warning before a password expires.
 
 Note: Running `sudo reboot` is required for the changes to take effect.
+
+-  `chage -l username`
+- if the setting not applied, execute below commands
+- `sudo pwunconv`: deletes /etc/shadow
+- `sudo pwconv`: creates /etc/shadow
+	- /etc/passwd: user account information
+	- /etc/shadow: secure user account information

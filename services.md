@@ -37,11 +37,11 @@ time-based job scheduler
 
 ```
 # Example of job definition:
- 11 # .---------------- minute (0 - 59)
- 12 # |  .------------- hour (0 - 23)
- 13 # |  |  .---------- day of month (1 - 31)
- 14 # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
- 15 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
- 16 # |  |  |  |  |
- 17 # *  *  *  *  * user-name command to be executed 
+ # .---------------- minute (0 - 59)
+ # |  .------------- hour (0 - 23)
+ # |  |  .---------- day of month (1 - 31)
+ # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+ # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+ # |  |  |  |  |
+ # *  *  *  *  * user-name command to be executed 
 ```
